@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cp0131ks.github.io/amp_wd/qamp.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://cp0131ks.github.io/amp_exp2/qamp.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	
@@ -75,7 +75,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_wd/qamp.js'], function(APICons
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://cp0131ks.github.io/amp_wd/image'
+			image : 'https://cp0131ks.github.io/amp_exp2/image'
 		}
 	});
 });
