@@ -5,30 +5,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp2/qamp.js'], function(APICo
 	
 	return ampExtension({
 		primeCats :  [
-			{
-				nameForFeedback : 'Manpc',  //Will be used in the user feedback 
-				nameForLogging : 'Manpc', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {image : 'm01.jpg'}, 
-					{image : 'm02.jpg'},
-					{image : 'm03.jpg'},
-					{image : 'm04.jpg'}					
-                  
-				]
-
-			}, 
-			{
-				nameForFeedback : 'Womanpc',  //Will be used in the user feedback 
-				nameForLogging : 'Womanpc', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {image : 'wo01.jpg'}, 
-					{image : 'wo02.jpg'},
-					{image : 'wo03.jpg'},
-					{image : 'wo04.jpg'}
-				]
-			},
+			
 			{
 				nameForFeedback : 'Manwd',  //Will be used in the user feedback 
 				nameForLogging : 'Manwd', //Will be used in the logging
