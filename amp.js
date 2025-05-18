@@ -48,7 +48,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp2/qamp.js'], function(APICo
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{image : 'ampchair.JPG'}, {image : 'amplamp.JPG'}, {image : 'ampumbrella.JPG'}]
+			mediaArray : [{word : '傘が開いている'}, {word : 'ランプが光っている'}, {word : '茶色のイスがある'}]
 		},
 		targetCats :  [
 			{
