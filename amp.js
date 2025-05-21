@@ -7,54 +7,160 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp2/qamp.js'], function(APICo
 		primeCats :  [
 			
 			{
-				nameForFeedback : 'Mandes',  //Will be used in the user feedback 
-				nameForLogging : 'Mandes', //Will be used in the logging
+				nameForFeedback : 'Mandes_1',  //Will be used in the user feedback 
+				nameForLogging : 'Mandes_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word: '男性は傲慢だ'},
-                    {word: '男性は子どもらしい'},
-					{word: '男性は成熟している'},
-                    {word: '男性は感情的だ'}
+				    {word: '男性は傲慢だ'}
                   
 				]
 
 			}, 
 			{
-				nameForFeedback : 'Manpre',  //Will be used in the user feedback 
-				nameForLogging : 'Manpre', //Will be used in the logging
+				nameForFeedback : 'Mandes_2',  //Will be used in the user feedback 
+				nameForLogging : 'Mandes_2', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-					{word: '男性は傲慢であるべきだ'},
-                    {word: '男性は子どもらしくあるべきだ'},
-					{word: '男性は成熟しているべきだ'},
+                    {word: '男性は子どもらしい'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Mandes_3',  //Will be used in the user feedback 
+				nameForLogging : 'Mandes_3', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '男性は成熟している'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Mandes_4',  //Will be used in the user feedback 
+				nameForLogging : 'Mandes_4', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '男性は感情的だ'}
+                  
+				]
+
+			}, 
+
+			{
+				nameForFeedback : 'Manpre_1',  //Will be used in the user feedback 
+				nameForLogging : 'Manpre_1', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '男性は傲慢であるべきだ'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpre_2',  //Will be used in the user feedback 
+				nameForLogging : 'Manpre_2', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+                    {word: '男性は子どもらしくあるべきだ'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpre_3',  //Will be used in the user feedback 
+				nameForLogging : 'Manpre_3', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '男性は成熟しているべきだ'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpre_4',  //Will be used in the user feedback 
+				nameForLogging : 'Manpre_4', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
                     {word: '男性は感情的であるべきだ'}
                   
 				]
 
 			}, 
+
 			{
-				nameForFeedback : 'Womandes',  //Will be used in the user feedback 
-				nameForLogging : 'Womandes', //Will be used in the logging
+				nameForFeedback : 'Womandes_1',  //Will be used in the user feedback 
+				nameForLogging : 'Womandes_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word: '女性は傲慢だ'},
+				    {word: '女性は傲慢だ'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Womandes_2',  //Will be used in the user feedback 
+				nameForLogging : 'Womandes_2', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
                     {word: '女性は子どもらしい'},
-					{word: '女性は成熟している'},
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Womandes_3',  //Will be used in the user feedback 
+				nameForLogging : 'Womandes_3', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '女性は成熟している'}
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Womandes_4',  //Will be used in the user feedback 
+				nameForLogging : 'Womandes_4', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
                     {word: '女性は感情的だ'}
                   
 				]
 
 			}, 
 			{
-				nameForFeedback : 'Womanpre',  //Will be used in the user feedback 
-				nameForLogging : 'Womanpre', //Will be used in the logging
+				nameForFeedback : 'Womanpre_1',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpre_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-					{word: '女性は傲慢であるべきだ'},
-                    {word: '女性は子どもらしくあるべきだ'},
-					{word: '女性は成熟しているべきだ'},
-                    {word: '女性は感情的であるべきだ'}
-                  
+					{word: '女性は傲慢であるべきだ'}                  
+				]
+
+			},
+			{
+				nameForFeedback : 'Womanpre_2',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpre_2', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '女性は子どもらしくあるべきだ'}                  
+				]
+
+			},
+			{
+				nameForFeedback : 'Womanpre_3',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpre_3', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '女性は成熟しているべきだ'}                  
+				]
+
+			},
+			{
+				nameForFeedback : 'Womanpre_4',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpre_4', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{word: '女性は感情的であるべきだ'}                  
 				]
 
 			}, 
